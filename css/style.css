@@ -1,0 +1,285 @@
+@charset "UTF-8";
+body {
+  color: #333;
+  font-family: Noto Sans JP;
+}
+
+/* 全ページ共通　メニュー */
+.global_navigation ul {
+  text-align: center;
+}
+
+.global_navigation li {
+  margin-right: 40px;
+  font-size: 18px;
+  display: inline;
+}
+
+.global_navigation a:link {
+  margin: 50px auto;
+}
+
+.global_navigation a:link,
+.global_navigation a:visited {
+  color: white;
+}
+
+.global_navigation a:hover {
+  color: #33ccff;
+}
+
+/* メインページ  */
+main {
+  width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #3e687d;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  color: #41afb5;
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #41afb5;
+}
+
+.wrapper_concept {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+}
+
+/* メインページ　コンセプト */
+.concept_description {
+  text-align: center;
+  line-height: 2;
+}
+
+/* メインページ　What’ｓ New */
+/* .small_text {
+  font-size: 1px;
+} */
+
+.wrapper_new {
+  width: 980px;
+  height: 300px;
+  background-image: url(../images/whatsnew_bg.png);
+  background-repeat: repeat;
+  padding: 40px;
+  overflow: auto;
+}
+
+.wrapper_new dt {
+  margin-top: 20px;
+}
+
+.new::after {
+  content: 'new';
+  color: red;
+  margin-left: 5px;
+}
+
+/* メインページ　What’ｓ New ボタン */
+.more_seminar {
+  background-color: #41afb5;
+  border-radius: 8px;
+  display: block;
+  width: 200px;
+  padding: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+
+.more_seminar hover {
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+.more_seminar a:link,
+visited {
+  color: ffffff;
+}
+
+/* メインページ　SNS */
+
+.sns_container {
+  display: flex;
+  justify-content: center;
+}
+
+.sns_container li {
+  margin: 10px 20px;
+}
+.sns_container li i {
+  color: #666;
+}
+
+/* 会社概要 代表者メッセージ */
+.ceo {
+  float: left;
+  margin-right: 1em;
+}
+
+.ceo_wrapper {
+  line-height: 2.5em;
+}
+
+/* 会社概要 */
+.float_clear {
+  clear: both;
+}
+
+/* 会社概要　フッター表 */
+.table-company th,
+.table-company td {
+  text-align: left;
+  border-top: 1px solid #a3a3a3;
+  border-bottom: 1px solid #a3a3a3;
+  padding: 10px;
+}
+
+.table-company th {
+  width: 15%;
+  font-weight: normal;
+  background-color: #f5f5f5;
+  white-space: nowrap;
+}
+
+.table-company {
+  margin: 50px 0;
+}
+
+/* フォーム */
+#form_wrapper {
+  background-color: #666666;
+}
+
+/* 全ページ　フッター */
+.footer_wrapper {
+  height: 400 px;
+  padding: 50px;
+  background-color: #3e687d;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_container h3 {
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: white;
+}
+
+.footer_item ul {
+  list-style-image: url(../images/triangle.png);
+}
+
+.footer_container li {
+  margin-bottom: 10px;
+}
+
+.footer_item a:visited,
+.footer_item a:link {
+  color: white;
+}
+
+.footer_item a:hover {
+  opacity: 0.5;
+}
+
+/* 全ページ　	コピーライト */
+.copyright {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+/* seminar.html カレンダー */
+.calender {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.calender caption {
+  font-size: 24px;
+  color: #808080;
+}
+
+.calender th,
+td {
+  border: 1px solid #808080;
+  padding: 5px;
+}
+
+.calender th {
+  color: white;
+  background-color: #41afb5;
+}
+
+.calender td {
+  text-align: right;
+  vertical-align: top;
+}
+
+.sat {
+  color: #0000cd;
+}
+
+.holiday {
+  color: #dc143c;
+}
+
+.seminar_img {
+  text-align: center;
+}
+
+/* jobsupport.html 求人情報 */
+.job_container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.job_container h3 {
+  color: #41afb5;
+  text-align: center;
+}
+.job_openings {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #999999;
+}
+
+.job_btn {
+  background-color: #41afb5;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.job_btn a:link,
+.job_btn a:visited {
+  color: white;
+}
+
+.job_btn:hover {
+  background-color: #3e687d;
+}

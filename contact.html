@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>お問い合わせフォーム</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- ヘッダー開始 -->
+	<header>
+		<h1><a href="index.html">
+<img src="images/logo.png" alt="SB Career Design株式会社" width="300">
+</a></h1>
+		<nav class="global_navigation">
+			<ul>
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="company.html">会社概要</a></li>
+				<li><a href="jobsupport.html">就職サポート</a></li>
+				<li><a href="seminar.html">セミナー</a></li>
+				<li><a href="blog.html">ブログ</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- ヘッダー終了 -->
+
+
+	<!-- メイン開始 -->
+	<main class="wrapper">
+
+		<h2>お問い合わせ</h2>
+		<p>ご意見・ご要望・お問合せは、下記からお寄せください。<br>
+皆さまからの貴重なご意見をお待ちいたしております。<br>
+なお、「必須」の印がある項目は必ずご記入下さい。</p>
+		<ul>
+			<li><a href="#form_personal_information">フォームの個人情報利用目的と取り扱いについて</a></li>
+			<li><a href="#faq">よくある質問</a></li>
+			<li><a href="#form_map">Access</a></li>
+		</ul>
+
+		<!-- フォーム開始 -->
+		<div id="form_wrapper">
+			<form action="example.php" method="post" name="contact-form">
+				<dl class="form_contents">
+					<dt>名前</dt>
+					<dd><input type="text" placeholder="名前　名字"></dd>
+					<dt>メール</dt>
+					<dd><input type="text" placeholder="＠を含む半角英数字を入力してください"></dd>
+
+					<dt>性別</dt>
+					<dd><input type="radio" name="gender" value="男" id="man"><label for="man">男</label></dd>
+					<dd><input type="radio" name="gender" value="女" checked id="woman"><label for="woman">女</label></dd>
+					<dd><input type="radio" name="gender" value="その他" id="other"><label for="other">その他</label></dd>
+
+					<dt>好きな色</dt>
+					<dd><input type="checkbox" name="color" value="赤" checked id="red">
+						<label for="red">赤</label>
+					</dd>
+					<dd><input type="checkbox" name="color" value="青" id="blue">
+						<label for="blue">青</label>
+					</dd>
+					<dd><input type="checkbox" name="color" value="黄" id="yellow">
+						<label for="yellow">黄</label>
+					</dd>
+					<dd><input type="checkbox" name="color" value="緑" id="green">
+						<label for="green">緑</label>
+					</dd>
+
+					<dt>血液型</dt>
+					<dd><select name="bloodtype">
+							<option value="A">A</option>
+							<option value="B">B</option>
+							<option value="O">O</option>
+							<option value="不明">不明</option>
+						</select>
+					</dd>
+
+					<dt>メッセージ</dt>
+					<dd><input type="text" placeholder="メッセージを入力"></dd>
+
+					<div class="form_button">
+						<input type="reset">
+						<input type="submit">
+					</div>
+				</dl>
+			</form>
+		</div>
+		<!-- フォーム終了 -->
+
+
+
+
+
+
+
+
+		<!-- 個人情報開始 -->
+		<div id="form_personal_information">
+			<h2>フォームの個人情報利用目的と取り扱いについて</h2>
+			<p>SB Career Designは、お客様が申込希望フォームへ入力いただいたデータを送信していただくことにより、お客様の個人情報をお預かりすることになります。お預かりしたお客様の個人情報の取り扱いにつきましては、「個人情報保護方針」に基づき、適切に取り扱い、保護に努めて参ります。</p>
+
+			<p>個人情報の定義<br>
+任意の一人の個人に関する情報であり、かつその情報に含まれる記述等によって特定の個人を識別できるものを指します。
+名前（氏名）・生年月日・年齢・性別・住所・電話番号・E-mailアドレス・SNS上の繋がり・学校名・銀行口座・クレジットカード番号などの情報を含む情報全体です。</p>
+
+			<p>取得した個人情報の利用目的<br>
+弊社は、お客様より申込希望フォームにて取得した個人情報を、以下の目的で利用します。
+お申込みいただいたサービスに関する契約締結する
+ダイレクトメール、電子メールなどの情報をご提供する</p>
+
+			<p>取得したお客様の個人情報の外部への提供について<br>
+お客様からご提供いただいた個人情報は、上記の「取得した個人情報の利用目的」の範囲内において、外部に提供することは一切ありません。ただし、警察や検察等の捜査機関からの照会（刑事訴訟法第 197 条第２項）や、検察官及び裁判官等からの裁判の執行に関する照会（同法第 507 条）の場合、「法令に基づく場合」（法第 23 条第１項第１号）に該当するため、本人の同意を得ずに提供いたします。</p>
+			<p>以上の内容にご同意いただいた上で「送信する」ボタンをクリックしてください。</p>
+		</div>
+		<!-- 個人情報終了 -->
+
+
+
+
+		<!-- よくある質問開始 -->
+		<div id="faq">
+			<h2>よくある質問</h2>
+			<p>よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問よくある質問</p>
+		</div>
+		<!-- よくある質問終了 -->
+
+		<!-- 地図開始 -->
+		<div id="form_map">
+			<h2>Access</h2>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.253592929618!2d135.4972273150816!3d34.69878319082896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ec5525c671%3A0x259506aae33e595b!2z44CSNTMwLTAwMDEg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65qKF55Sw77yR5LiB55uu77yR4oiS77yTIOWkp-mYqumnheWJjeesrDPjg5Pjg6s!5e0!3m2!1sja!2sjp!4v1661547911650!5m2!1sja!2sjp" width="980" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div>
+				<!-- 地図終了 -->
+	</main>
+	<!-- メイン終了 -->
+
+
+
+
+
+
+
+
+
+
+	<!-- フッター開始 -->
+	<footer class="footer_wrapper">
+		<div class="footer_container">
+			<div class="footer_item">
+				<h3>会社概要</h3>
+				<ul>
+					<li><a href="#">企業理念</a></li>
+					<li><a href="#">代表ご挨拶</a></li>
+					<li><a href="#">支店・アクセス</a></li>
+					<li><a href="#">求人情報</a></li>
+					<li><a href="#">よくある質問</a></li>
+				</ul>
+			</div>
+
+			<div class="footer_item">
+				<h3>事業内容</h3>
+				<ul>
+					<li><a href="#">就活サポート</a></li>
+					<li><a href="#">セミナー</a></li>
+					<li><a href="#">スクール</a></li>
+					<li><a href="#">インターシップ</a></li>
+					<li><a href="#">Web開発制作</a></li>
+				</ul>
+			</div>
+
+			<div class="footer_item">
+				<h3>グループ</h3>
+				<ul>
+					<li><a href="#">SB CAFE</a></li>
+					<li><a href="#">SB TRIP DIVING</a></li>
+					<li><a href="#">SB Beauty Salon</a></li>
+					<li><a href="#">SB FASHION</a></li>
+					<li><a href="#">SB Bakery</a></li>
+				</ul>
+			</div>
+		</div>
+		<p class="copyright"><small>&copy;2022 SB Career Design Co., Ltd.</small></p>
+	</footer>
+	<!-- フッター終了 -->
+</body>
+</html>

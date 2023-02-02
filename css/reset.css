@@ -1,0 +1,39 @@
+@charaset "UTF-8";
+
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+p,
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* リストの点を消す */
+li {
+  list-style-type: none;
+}
+
+/* リンクの罫線を消す */
+a {
+  text-decoration: none;
+}
+
+/* 表のラインを一重に */
+table {
+  border-collapse: collapse;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ボックスサイズの算出方法を予め設定しておく */
+* {
+  box-sizing: border-box; /* 事典P453 */
+  font-size: 100%; /* 事典P325 */
+}
